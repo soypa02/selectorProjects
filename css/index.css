@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    height: 15vh;
+    width: 100vw;
+    ;
+}
+
+.corPreto{
+    background-image: linear-gradient(to right, #4c00af, #6a25c3, #8640d6, #a15aeb, #bb73ff)!important;
+}
+
+.corPreto a{
+    color: white;
+
+}
+
+.corPreto a:hover{
+    color:white
+}
+
+.corPreto a:active{
+    color: aqua;
+}
+
+
+body{
+    overflow-x: hidden;
+
+}
+
+#pagina1{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
