@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto1 - display</title>
+    <link rel="stylesheet" href="../../frameword/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* tira barrinha do siteeeeee */
+        body {
+            overflow-x: hidden;
+        }
+    </style>
+
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- cabeçalho -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- conteudo da pag -->
+    <main class="flex-fill">
+
+        <section>
+            <div style="height: 90vh;background-color: slateblue;">
+                <div class="row" style="height: 90vh;">
+                    <!-- alinhar os baguio e linha(displau flex) virar column -->
+                    <div class="col-12 col-md-6"
+                        style="background-color:darkblue ; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                        <h1 style="color: aliceblue;">VENHA APRENDER HTML E CSS!! É INCRIVEL</h1>
+                        <br>
+                        <br>
+                        <p style="color: aliceblue;"> guia feito para meus capetinhas do inferno ♡♡ </p>
+                        <br>
+                        <button type="button" class="btn btn-outline-primary">Primary</button>
+                    </div>
+                    <div class="col-12 col-md-6"
+                        style=" display: flex; justify-content: center; align-items: center; flex-direction: column ">
+                        <h2 style="color: aquamarine;"> Conteudos insanos:</h2>
+                        <div class="accordion accordion-flush" id="accordionFlushExample" style="width: 100%;">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        HTML ADOIDADO
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">HTML5 é a quinta e mais recente versão da linguagem de
+                                        marcação de hipertexto (HTML), usada para estruturar e apresentar conteúdo na
+                                        web. É a base de praticamente todos os sites que você visita, e oferece novas
+                                        funcionalidades e melhorias em relação às versões anteriores, como suporte a
+                                        multimídia, elementos semânticos e APIs mais poderosas.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        CSS MALUCO
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">CSS (Cascading Style Sheets) é uma linguagem de estilo
+                                        utilizada para definir a apresentação visual de documentos HTML e XML, como
+                                        páginas web. Basicamente, o CSS controla como os elementos de uma página são
+                                        exibidos, incluindo cores, fontes, espaçamento, layouts e outros aspectos
+                                        visuais.
+                                        Em termos mais simples, o HTML estrutura o conteúdo da página (o que aparece),
+                                        enquanto o CSS define como esse conteúdo será apresentado (como aparece)</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div
+                style="height: 50vh; background-color: thistle; display: flex; flex-direction:column; justify-content: center; align-items: center;">
+
+                <h1>O que é a propriedade Display em CSS</h1>
+                <p style="text-align: center;">Em CSS, a propriedade display determina como um elemento HTML é
+                    renderizado na página. Ela define se o elemento se comporta como um bloco, um elemento em linha ou
+                    se é ocultado. A propriedade display é fundamental para o layout e a disposição dos elementos em uma
+                    página web.</p>
+
+            </div>
+
+            <div
+                style="height: 50vh; background-color: rgb(198, 177, 255);overflow-y: scroll;">
+
+                <table class="table table-hover table-responsive-sm;" style="margin-top: 2;">
+                    <thead>
+                        <tr>
+                            <th scope="col">display</th>
+                            <th scope="col">caracteristicas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Block</th>
+                            <td>Para blocos principais de conteudo, seçoes e elementos q precisam de sua prorpia linha e
+                                controle atotal de tamanho. pense em containers e estruturas verticais</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Inline </th>
+                            <td>
+                                Ideal para pequenaos elementos dentro de um fluxo de texto, como links, negritos,
+                                italicos , onde voce nao precisasr controlar largura e altura.
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">flex</th>
+                            <td>define um elemento como um container flexível, permitindo o uso do layout flexbox para
+                                organizar seus filhos (elementos filhos). O flexbox é uma ferramenta poderosa para criar
+                                layouts responsivos e flexíveis, tanto horizontal quanto verticalmente, com controle
+                                sobre o alinhamento, espaçamento e redimensionamento dos itens. </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </section>
+
+
+
+        </section>
+
+
+
+
+
+    </main>
+
+
+    <!-- rodape -->
+    <footer class="footer mt-auto">
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">NOME EMPRESA - TODOS OS DIREITOS RESERVADOS, NAO
+                    PODE COPIAR!</a>
+        </ul>
+
+    </footer>
+
+
+
+
+    <script src="../../frameword/bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
