@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encanto - Festas</title>
+    <link rel="stylesheet" href="../../frameword/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .card {
+            display: flex;
+            /* imagem e texto lado a lado */
+            border: 1px solid #ccc;
+            /* borda fininha */
+            border-radius: 8px;
+            /* cantos arredondados */
+            padding: 20px;
+            /* espaço interno */
+            gap: 20px;
+            /* espaço entre imagem e texto */
+            max-width: 800px;
+            /* largura máxima do card */
+            margin: 20px auto;
+            /* centraliza na página */
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+            /* sombra suave */
+        }
+
+        .card img {
+            width: 300px;
+            /* largura da imagem */
+            height: auto;
+            /* mantém proporção */
+            border-radius: 8px;
+            /* cantos arredondados */
+            object-fit: cover;
+            /* corta se necessário sem distorcer */
+        }
+
+        .card-text {
+            flex: 1;
+            /* texto ocupa o resto do espaço */
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+        }
+
+
+
+
+
+        .carousel-item img {
+            max-height: 50vh;
+            /* limita a altura da imagem */
+            width: auto;
+            /* mantém proporção */
+            margin: 0 auto;
+            /* centraliza */
+            object-fit: contain;
+            /* ajusta sem cortar */
+
+
+        }
+    </style>
+
+</head>
+
+
+<body style="background-color: #cbaacb;">
+
+   
+  <header style="background-color:  #ABDEE6;">
+
+    <div class="text-center">
+      <img src="https://i.pinimg.com/originals/7d/df/bf/7ddfbf0f4ced241e2433a037349d4139.jpg" class="rounded" alt="..."
+        style="height: 15vh; width: 15vh; border-radius: 50%;">
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ABDEE6;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="file:///D:/projetinho/src/sites/p2/home.html">Encanto</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="file:///D:/projetinho/src/sites/p2/festas.html">Festas e Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///D:/projetinho/src/sites/p2/persona.html">Personalizados</a>
+            </li>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Encomendas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="file:///D:/projetinho/src/sites/p2/bolos.html">Bolos</a></li>
+                  <li><a class="dropdown-item" href="file:///D:/projetinho/src/sites/p2/tortas.html">Tortas</a></li>
+                  <li><a class="dropdown-item" href="file:///D:/projetinho/src/sites/p2/doces.html">Brigadeiros e Docinhos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+    <main style="background-color: rgb #ABDEE6;">
+        <section>
+            <br>
+            <h1 style="text-align: center; color: white; font-family: 'Times New Roman', Times, serif;">Casamento</h1>
+            <br>
+
+            <div style="display: flex; justify-content: center; ">
+                <div class="card" style="width: 18rem; object-fit: contain;">
+                    <img style="width:15rem"
+                        src="https://moinhoglobo.com.br/wp-content/uploads/2015/06/bem-casado.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bem-Casado </h5>
+                        <p class="card-text">Clássico absoluto! Dois discos de pão de ló recheados com doce de leite e cobertos com açúcar de confeiteiro ou embalados em tecido fino.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwfMIantxeUhjgF2sSEMWfRNN-LiIP911yAQ&s" style="width: 16rem;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camafeu de Nozes                        </h5>
+                        <p class="card-text">Doce elegante feito com nozes, leite condensado e cobertura de fondant branco, geralmente decorado com meia noz.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRefSE5Psik3JbTZ36Gtzut0L9yaOm-7knjTA&s" style="width: 16rem;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Brigadeiro Gourmet  </h5>
+                        <p class="card-text">Versão refinada do brigadeiro tradicional, feito com chocolate nobre (belga ou meio amargo) e coberturas especiais como castanhas, pistache ou confeitos metálicos.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://guiadacozinha.com.br/wp-content/uploads/2019/10/Bombom-de-nozes-e-damasco.jpg" style="width: 16rem;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Docinho de Damasco com Nozes
+                        </h5>
+                        <p class="card-text">Damasco recheado com doce de leite ou brigadeiro branco e finalizado com noz por cima.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/736x/f6/03/e9/f603e9976e926dfb6f59822d7204d01a.jpg" style="width: 16rem;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarteletes</h5>
+                        <p class="card-text">Pequenas tortas com recheios variados como limão, ganache de chocolate, frutas vermelhas, ou maracujá. </p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+        <section>
+            <br>
+            <h1 style="text-align: center; color: white; font-family: 'Times New Roman', Times, serif;">Aniversario</h1>
+            <br>
+
+            <div style="display: flex; justify-content: center; ">
+                <div class="card" style="width: 18rem; object-fit: contain;">
+                    <img style="width:15rem"
+                        src="https://www.sabornamesa.com.br/media/k2/items/cache/71cfd8d5cd7426aadde58394c87708d8_XL.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Doce Bicho de pé</h5>
+                        <p class="card-text">Tem esse nome porque antigamente o doce de morango era feito com morango in
+                            natura e
+                            ficavam com pintinhas pretas (das sementes), depois do doce pronto as pintinhas pretas
+                            ficavam parecendo
+                            bichos de pé de verdade..</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 16rem;" src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/1a884bcbc5b04d71476d2995d51d0140.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Brigadeiro</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora neque eos ut necessitatibus doloremque magni repellat provident nobis quibusdam vitae suscipit a pariatur assumenda facilis, architecto dignissimos dolorem itaque soluta!</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 16rem;" src="https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/mesas/2021/02/21c4e040-beijinho-_-tm-cristina-martins-_-baixa-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Beijinho</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card
+                            content.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 16rem;" src="https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop_new/public/srh_recipes/9f305aeca5803b1b98002f6224643a43.webp?itok=NUx6yRz6" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cajuzinho</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card
+                            content.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 16rem;" src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/e16ba344aac8cea45d780b1b54b150bd.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olho de Sogra</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card
+                            content.</p>
+                        <a href="#" class="btn btn-outline-primary">Comprar agora</a>
+                    </div>
+                
+                </div>
+            </div>
+
+            <hr>
+        </section>
+
+
+        
+
+    </main>
+    <footer style="background-color:#ABDEE6;">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" style="color: rgb(255, 81, 182); background-color: transparent;"
+                    href="#" onmouseover="this.style.backgroundColor='blue'"
+                    onmouseout="this.style.backgroundColor='transparent'">
+                    Contato
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: rgb(255, 81, 182); background-color: transparent;"
+                    onmouseover="this.style.backgroundColor='blue'"
+                    onmouseout="this.style.backgroundColor='transparent'">
+                    Dúvidas
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="../../frameword/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

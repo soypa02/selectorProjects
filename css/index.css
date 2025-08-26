@@ -19,7 +19,7 @@
 }
 
 .corPreto a:hover{
-    color:white
+    color:rgb(46, 227, 22)
 }
 
 .corPreto a:active{
@@ -41,5 +41,9 @@ body{
     justify-content: center;
     
     flex-direction: column;
+}
+
+.corPreto a:focus{
+    color: orange;
 }
 

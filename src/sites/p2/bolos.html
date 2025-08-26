@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encanto - Bolos!</title>
+    <link rel="stylesheet" href="../../frameword/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .card {
+            display: flex;
+            /* imagem e texto lado a lado */
+            border: 1px solid #ccc;
+            /* borda fininha */
+            border-radius: 8px;
+            /* cantos arredondados */
+            padding: 20px;
+            /* espaço interno */
+            gap: 20px;
+            /* espaço entre imagem e texto */
+            max-width: 800px;
+            /* largura máxima do card */
+            margin: 20px auto;
+            /* centraliza na página */
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+            /* sombra suave */
+        }
+
+        .card img {
+            width: 300px;
+            /* largura da imagem */
+            height: auto;
+            /* mantém proporção */
+            border-radius: 8px;
+            /* cantos arredondados */
+            object-fit: cover;
+            /* corta se necessário sem distorcer */
+        }
+
+        .card-text {
+            flex: 1;
+            /* texto ocupa o resto do espaço */
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+        }
+
+
+
+
+
+        .carousel-item img {
+            max-height: 50vh;
+            /* limita a altura da imagem */
+            width: auto;
+            /* mantém proporção */
+            margin: 0 auto;
+            /* centraliza */
+            object-fit: contain;
+            /* ajusta sem cortar */
+
+
+        }
+    </style>
+
+</head>
+
+
+<body style="background-color: #cbaacb;">
+
+    
+  <header style="background-color:  #ABDEE6;">
+
+    <div class="text-center">
+      <img src="https://i.pinimg.com/originals/7d/df/bf/7ddfbf0f4ced241e2433a037349d4139.jpg" class="rounded" alt="..."
+        style="height: 15vh; width: 15vh; border-radius: 50%;">
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ABDEE6;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="file:///D:/projetinho/src/sites/p2/home.html">Encanto</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="file:///D:/projetinho/src/sites/p2/festas.html">Festas e Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///D:/projetinho/src/sites/p2/persona.html">Personalizados</a>
+            </li>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Encomendas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="file:///D:/projetinho/src/sites/p2/bolos.html">Bolos</a></li>
+                  <li><a class="dropdown-item" href="file:///D:/projetinho/src/sites/p2/tortas.html">Tortas</a></li>
+                  <li><a class="dropdown-item" href="file:///D:/projetinho/src/sites/p2/doces.html">Brigadeiros e Docinhos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+    <main style="background-color: rgb #ABDEE6;">
+        <section>
+            <br>
+            <h1 style="text-align: center; color: white; font-family: 'Times New Roman', Times, serif;"> Bolos!   </h1>
+            <br>
+
+            <div style="display: flex; justify-content: center; ">
+                
+                
+                <div class="card" style="width: 18rem;">
+                    <img style="width: 16rem;" src="https://rubiacakes.wordpress.com/wp-content/uploads/2020/07/home-rubia-cakes-bolo-bolos-finos-0620294.jpg?w=974" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Doce Nuvem</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minus voluptatem nihil nam, quod inventore magni repellat earum aspernatur vero cupiditate voluptate, iusto id quae eaque ipsum similique quaerat minima.
+                            content.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img  style="width: 16rem;" src="https://static.wixstatic.com/media/f36669_25ab385c7c7644e184529f104d5674f3~mv2.jpeg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/f36669_25ab385c7c7644e184529f104d5674f3~mv2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fatia Nobre</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ea aut quasi corporis mollitia beatae accusantium nisi. Quo neque earum, non, esse, reiciendis maiores magnam laboriosam cumque inventore sit obcaecati?
+                        
+                            content.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img  style="width: 16rem;" src="https://rubiacakes.wordpress.com/wp-content/uploads/2020/07/home-rubia-cakes-bolo-bolos-finos-0620383-1.jpg?w=800" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Branquinho dos Sonhos</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ducimus in natus excepturi iusto? Laudantium aliquid, sapiente eum et nemo repellat atque harum, expedita sequi quod fugit facilis in? Odio.
+                            content.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+
+        <section>
+            <div style="display: flex; justify-content: center; ">
+                <div class="card" style="width: 18rem;">
+                    <img  style="width: 16rem;" src="https://salgados.mamacida.com.br/imagens/bolo-de-festa-quadrado-valores.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Branco Perolado</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore sit nam, eius doloremque quibusdam at repudiandae quidem quisquam esse recusandae necessitatibus similique eum omnis veniam blanditiis temporibus? Delectus, inventore.
+                            content.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img  style="width: 16rem;" src="https://www.juliaquitutes.com.br/media/tmp/webp/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/d/r/dressed_cake_brigadeiro_belga_branco_e_oreo.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Croc do Amor</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum officia totam a iusto, reprehenderit incidunt et repellat nostrum, eveniet quidem. Eveniet, quas? Ab delectus vitae similique id, harum eaque.
+                            content.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img  style="width: 16rem;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0h-p-2ntu7WSZJhP1iHRNxcfzWDjLMTHUt1s0kEDAud3yqXo2rhXkopFcMlds03HGGVQ&usqp=CAU" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarde na Praia</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nostrum doloribus delectus numquam aliquam recusandae harum ut quos. Est necessitatibus deleniti magnam perspiciatis animi provident nam dolorem nesciunt dignissimos perferendis!
+                            content.</p>
+                        <a href="#" class="btn btn-outline-primary">comprar agora</a>
+                    </div>
+                </div>
+                
+            </div>
+            <hr>
+          
+        </section>
+
+     
+
+
+
+
+    </main>
+
+    <footer style="background-color:#ABDEE6;">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" style="color: rgb(255, 81, 182); background-color: transparent;"
+                    href="#" onmouseover="this.style.backgroundColor='blue'"
+                    onmouseout="this.style.backgroundColor='transparent'">
+                    Contato
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: rgb(255, 81, 182); background-color: transparent;"
+                    onmouseover="this.style.backgroundColor='blue'"
+                    onmouseout="this.style.backgroundColor='transparent'">
+                    Dúvidas
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+
+    <script src="../../frameword/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

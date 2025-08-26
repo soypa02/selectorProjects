@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encanto</title>
+  <link rel="stylesheet" href="../../frameword/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .card {
+      display: flex;
+      /* imagem e texto lado a lado */
+      border: 1px solid #ccc;
+      /* borda fininha */
+      border-radius: 8px;
+      /* cantos arredondados */
+      padding: 20px;
+      /* espaço interno */
+      gap: 20px;
+      /* espaço entre imagem e texto */
+      max-width: 800px;
+      /* largura máxima do card */
+      margin: 20px auto;
+      /* centraliza na página */
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+      /* sombra suave */
+    }
+
+    .card img {
+      width: 300px;
+      /* largura da imagem */
+      height: auto;
+      /* mantém proporção */
+      border-radius: 8px;
+      /* cantos arredondados */
+      object-fit: cover;
+      /* corta se necessário sem distorcer */
+    }
+
+    .card-text {
+      flex: 1;
+      /* texto ocupa o resto do espaço */
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
+
+
+
+
+
+    .carousel-item img {
+      max-height: 50vh;
+      /* limita a altura da imagem */
+      width: auto;
+      /* mantém proporção */
+      margin: 0 auto;
+      /* centraliza */
+      object-fit: contain;
+      /* ajusta sem cortar */
+
+
+    }
+  </style>
+
+</head>
+
+
+<body style="background-color: #cbaacb;">
+
+  <header style="background-color:  #ABDEE6;">
+
+    <div class="text-center">
+      <img src="https://i.pinimg.com/originals/7d/df/bf/7ddfbf0f4ced241e2433a037349d4139.jpg" class="rounded" alt="..."
+        style="height: 15vh; width: 15vh; border-radius: 50%;">
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ABDEE6;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="file:///D:/projetinho/src/sites/p2/home.html">Encanto</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="file:///D:/projetinho/src/sites/p2/festas.html">Festas e Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///D:/projetinho/src/sites/p2/persona.html">Personalizados</a>
+            </li>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Encomendas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="file:///D:/projetinho/src/sites/p2/bolos.html">Bolos</a></li>
+                  <li><a class="dropdown-item" href="file:///D:/projetinho/src/sites/p2/tortas.html">Tortas</a></li>
+                  <li><a class="dropdown-item" href="file:///D:/projetinho/src/sites/p2/doces.html">Brigadeiros e Docinhos</a></li>
+                </ul>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <main style="background-color: rgb #ABDEE6;">
+
+    <section style="display: flex; justify-content: center; align-items: center; height: 70h;">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
+        style="width: 50vw; height: 50vh; margin-top:5vh;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/fotos-premium/bolo-de-frutas-doces-com-camadas-no-fundo-branco_210435-4429.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://casamento.biz/wp-content/uploads/2018/11/Doces-Finos-para-Casamento-lista.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://guiadacozinha.com.br/wp-content/uploads/2020/04/torta-com-frutas-vermelhas-1.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <hr>
+      <br>
+      <h2 style="text-align: center; color: white; font-family: 'Times New Roman', Times, serif;">Favoritos da galera!</h2>
+
+      <div style="display: flex; justify-content: center; ">
+        <div class="card" style="width: 18rem; object-fit: contain;">
+          <img style="width:15rem"
+            src="https://www.sabornamesa.com.br/media/k2/items/cache/71cfd8d5cd7426aadde58394c87708d8_XL.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Doce Bicho de pé</h5>
+            <p class="card-text">Tem esse nome porque antigamente o doce de morango era feito com morango in natura e
+              ficavam com pintinhas pretas (das sementes), depois do doce pronto as pintinhas pretas ficavam parecendo
+              bichos de pé de verdade..</p>
+            <a href="#" class="btn btn-outline-primary">Saiba mais</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img style="width:15rem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAZ58KykgB2XtkxPiDWYWewo9jSNPcDvkZDDMa_qqlFGFeVLM7L6Nh_uv7LOJz31uuGRQ&usqp=CAU" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bem-casados</h5>
+            <p class="card-text">Bem-casados são doces portugueses, compostos por duas pequenas massas fofas unidas por um recheio de doce de leite, que são cobertas com uma fina camada de açúcar, sendo um doce tradicionalmente oferecido em casamentos e outras celebrações para simbolizar a união e o amor do casal. A tradição dita que, ao receber um bem-casado, o convidado deve fazer um pedido e, caso o papel não rasgue ao abrir o doce, o desejo pode se realizar. 
+              .</p>
+            <a href="#" class="btn btn-outline-primary">Saiba mais</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img style="width:15rem" src="https://saboreiaavida.nestle.pt/sites/default/files/styles/receita_card_620x560/public/2022-02/mini-banoffe-pies.png?h=fd38a500&itok=_hZMBw-V" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">mini banoffee</h5>
+            <p class="card-text">Mini banoffees são delicadas releituras de uma sobremesa clássica inglesa, feitas com uma base crocante de biscoito, recheadas com doce de leite cremoso, rodelas frescas de banana e finalizadas com uma suave camada de chantilly e um toque de cacau em pó. Pequenas no tamanho, mas ricas em sabor e significado, essas miniaturas encantam pelo equilíbrio entre o doce e o fresco.
+              Perfeitas para casamentos e celebrações especiais, as mini banoffees simbolizam a doçura dos momentos vividos e a abundância das boas lembranças. Dizem que, ao saborear uma mini banoffee com o coração leve, é possível eternizar um sentimento ou desejo sincero. Afinal, cada camada carrega uma promessa de afeto e alegria compartilhada.</p>
+            <a href="#" class="btn btn-outline-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <section>
+
+      <div style="
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    gap: 20px;
+    background-color:whitesmoke
+    ">
+
+        <img src="https://i.pinimg.com/originals/85/fe/89/85fe896a0032c2b7dfb00a5810eabd49.png" alt="Imagem aleatória"
+          style="width: 300px; border-radius: 10px; object-fit: cover;">
+
+        <div style="flex: 1;">
+          <p>
+            A Encanto é uma confeitaria completa situada no coração de Pinheiros, criada com uma missão: transformar
+            momentos especiais em memórias doces e inesquecíveis.
+          </p>
+          <p>
+            Com quase 17 anos de história, a Encanto combina o melhor de duas culinárias distintas e igualmente
+            deliciosas: o frescor e a criatividade da cozinha americana, junto à sofisticação e elegância da culinária
+            francesa. Cada doce é preparado diariamente com os melhores e mais finos ingredientes, usando o chocolate
+            belga mais puro e sempre sem qualquer aditivo artificial.
+          </p>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+      <hr>
+    </section>
+
+
+  </main>
+
+
+
+  <footer style="background-color:#ABDEE6;">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <p></p>
+        <p style="font-family:'Courier New', Courier, monospace;"> Deus é meu pastor e nada me faltará </p>
+    </ul>
+
+
+
+
+
+
+
+  </footer>
+
+
+  <script src="../../frameword/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
